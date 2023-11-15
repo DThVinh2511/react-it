@@ -1,0 +1,59 @@
+.header {
+  height: 65px;
+  background:  #ddd;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  &__logo {
+    width: 200px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #02C7F2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__login {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__button {
+    margin: 0 10px;
+  }
+}
+.content {
+  padding: 20px 50px;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 60px - 65px);
+}
+.button__action {
+  margin-top: 10px;
+  float: left;
+}
+.footer {
+  position: sticky;
+  // bottom: 0;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  height: 60px;
+  background: rgb(40, 37, 37);
+}
+
+.mg-20 {
+  margin: 10px 0px;
+}
+.mg-30 {
+  margin-top: 30px;
+}
+*{
+  scroll-behavior: smooth;
+}
+.job__detall {
+  scroll-margin-top: 100px;
+}
